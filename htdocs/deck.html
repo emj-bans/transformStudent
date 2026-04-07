@@ -28,24 +28,40 @@
 				font-size: 2em;
 				padding: 5px;
 				font-weight: bold;
+				position: fixed;
+				top: 10vh;
+				left: 50vw;
+				transition: transform 1s;
 			}
 			#deck div:hover{
-				border: 3px solid yellow;
+				border: 3px solid #0C2C55;
+			}
+			#deck:hover div:first-child{
+				transform: translate(-125px, -95px) rotate(-45deg);
+			}
+			#deck:hover div:nth-child(2){
+				transform: translate(-85px, -70px) rotate(-30deg);
+			}
+			#deck:hover div:nth-child(3){
+				transform: translate(-45px, -45px) rotate(-15deg);
+			}
+			#deck:hover div:nth-child(5){
+				transform: translate(25px, 60px) rotate(15deg);
 			}
 			#deck div:first-child:hover{
-				background-color: yellow;
+				background-color: #1A3263;
 			}
 			#deck div:nth-child(2):hover{
-				background-color: orange;
+				background-color: #547792;
 			}
 			#deck div:nth-child(3):hover{
-				background-color: green;
+				background-color: #2C687B;
 			}
 			#deck div:nth-child(4):hover{
-				background-color: blue;
+				background-color: #8CC7C4;
 			}
 			#deck div:nth-child(5):hover{
-				background-color: violet;
+				background-color: #DB1A1A;
 			}
 			a {
 				text-decoration: none;
@@ -60,11 +76,11 @@
 	</head>
 	<body>
 		<div id="deck">
-			<div> &#9824;</div>
-			<div> &#127808;</div>
-			<div>	&#9670;</div>
-			<div>	&#10084;</div>
-      <div> &#127183;</div>
+			<div> &#128513;</div>
+			<div> &#128540;</div>
+			<div>	&#128018;</div>
+			<div>	👨‍👩‍👧‍👦 </div>
+      <div> &#127881;</div>
 		</div>
     <a href="../index.html"><button> Click me for Home</button> </a>
 	</body>
